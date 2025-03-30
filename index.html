@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Designer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <nav>
+            <ul>
+                <li class="active"><a href="#about">About</a></li>
+                <li><a href="#portfolio">My Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#skills">Tools & Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+
+        <img class="wemi" src="wemi.png" alt="A beautiful landscape photo">
+        <div class="space">
+        <h1>Hi, I'm Selina.</h1>
+        <h2>A passionate graphic designer</h2>
+        <p>I specializing in branding and flyer designs. <br>I create visually compelling designs that help brands <br>
+            stand out and tell their stories.</p>
+        <a href="#portfolio" class="btn">View My Work</a>
+    </div>
+    </section>
+
+    <section id="inspire">
+        <h2>Inspiration</h2>
+        <p>For me, design is about more than just aesthetics. <br>It's about telling a story, evoking emotions
+             and sparking connections. <br> I'm inspired by the endless possibilities
+             of visual communication and  <br> the opportunity to bring new ideas to life.
+        </p>
+    </section>
+
+    <section id="portfolio">
+
+        <div class="lightbox" id="lightbox">
+            <span class="close-btn">&times;</span>
+            <img class="lightbox-img" id="lightbox-img" src="" alt="Expanded Image">
+        </div>
+
+
+        <h2 class="work">My Work</h2>
+
+        <div class="branding">
+            <h3 class="visual">Branding & Visual Identity </h3>
+            <img src="m.jpg" alt="Project 1">
+            <img src="d.jpg" alt="Project 2">
+        </div>
+
+
+        <div class="Flyers">
+            <h3 class="visual">Flyers</h3>
+            <img src="movie night.png" alt="Project 1">
+            <img src="h.jpg" alt="Project 2">
+            <img src="dm.jpg" alt="Project 3">
+        </div>
+
+
+        <div class="Menu">
+            <h3 class="visual">Menu</h3>
+            <img src="val her.png" alt="Project 1">
+            <img src="val him-Recovered.png" alt="Project 2">
+        
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills-container">
+            <div class="skills-box">
+                <h2 class="my">Tools</h2>
+                <ul>
+                    <li>Illustrator</li>
+                    <li>Photoshop</li>
+                    <li>CorelDraw</li>
+                </ul>
+            </div>
+    
+            <div class="skills-box">
+                <h2 class="my">Skills</h2>
+                <ul>
+                    <li>Flyer Design</li>
+                    <li>Branding & Visual Identity</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="resume">
+        <h2 class="resume">Resume</h2>
+        <p>Download my resume to learn more about my experience and skills.</p>
+        <a href="Wemimo CV 2.pdf" download class="download-btn">Download Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2 class="contact">Contact Me</h2>
+        <form action="https://formsubmit.co/selinabamigboye@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
